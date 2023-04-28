@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Calculator</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+
+    <div class="main">
+        <input class="ans" type="text" id="num" name="num" /><br /><br />
+
+        <div class="numbers">
+            <button onclick="num.value+='1'">1</button>
+            <button onclick="num.value+='2'">2</button>
+            <button onclick="num.value+='3'">3</button>
+            <button onclick="num.value+='+'">+</button>
+
+            <button onclick="num.value+='4'">4</button>
+            <button onclick="num.value+='5'">5</button>
+            <button onclick="num.value+='6'">6</button>
+            <button onclick="num.value+='-'">-</button>
+
+            <button onclick="num.value+='7'">7</button>
+            <button onclick="num.value+='8'">8</button>
+            <button onclick="num.value+='9'">9</button>
+            <button onclick="num.value+='*'">*</button>
+
+            <button onclick="num.value+='0'">0</button>
+            <button onclick="num.value=''">C</button>
+            <button onclick="num.value=eval(num.value)">=</button>
+            <button onclick="num.value+='/'">/</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
 </body>
 
 </html>
